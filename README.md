@@ -165,6 +165,8 @@ Put all imports at the top of the page with three sections, each separated by a 
 
 <https://www.python.org/dev/peps/pep-0008/#imports>
 
+--
+
 #### Rtl Specfics 
 ##### Environment variables
 Would like to (likely more feasible once we have vault)
@@ -175,7 +177,7 @@ Would like to (likely more feasible once we have vault)
 	        sql_server = os.environ['MSSQL_SERVER_IP']
 	        sql_port = os.environ['MSSQL_PORT']
 	        sql_db = os.environ['MSSQL_DB']
-------
+--
 	Similary, if possible, would like to standardize date variables and how they are handled, 
 		- Likely the easiest option for receiving functions is to have start_date and end_date
 		any time we use a date. So run(start_date="", end_date="") 
@@ -207,6 +209,7 @@ Steps to create correctly, everytime.
 3. Checkin requirements.txt
 
 --	
+
 ###Notes on performance:
 ######List Comprehension
 More of a note on performance than on style guides
@@ -216,6 +219,7 @@ If you are modifying a list or dict rather use the traditional syntax:
           x=x+1`
           
 -- 
+
 ######Numpy 
 There’s a couple of points we can follow when looking to speed things up:
 - If there’s a for-loop over an array, there’s a good chance 
@@ -227,10 +231,11 @@ There’s a couple of points we can follow when looking to speed things up:
 <https://www.datacamp.com/courses/writing-efficient-python-code>
 
 --
+
 #####.env files
 Always close values in "", can handle every variable type
 
--------------------------
+--
 
 
 Useful docs & further reading:
