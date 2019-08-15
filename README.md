@@ -210,8 +210,8 @@ Steps to create correctly, everytime.
 
 --	
 
-###Notes on performance:
-######List Comprehension
+### Notes on performance:
+###### List Comprehension
 More of a note on performance than on style guides
 List comprehensions should only be used when actually storing the output of the list comprehension, 
 If you are modifying a list or dict rather use the traditional syntax:
@@ -220,7 +220,7 @@ If you are modifying a list or dict rather use the traditional syntax:
           
 -- 
 
-######Numpy 
+###### Numpy 
 There’s a couple of points we can follow when looking to speed things up:
 - If there’s a for-loop over an array, there’s a good chance 
   we can replace it with some built-in Numpy function
@@ -232,7 +232,7 @@ There’s a couple of points we can follow when looking to speed things up:
 
 --
 
-#####.env files
+##### .env files
 Always close values in "", can handle every variable type
 
 --
