@@ -3,9 +3,7 @@ Centralized location for all RTL-python coding standards.
 
 ### Values
 - **"Build tools for others that you want to be built for you." - Kenneth Reitz**
-- "Simplicity is alway better than functionality." - Pieter Hintjens
-- "Fit the 90% use-case. Ignore the nay sayers." - Kenneth Reitz
-- "Beautiful is better than ugly." - [PEP 20]
+- **"Simplicity is alway better than functionality." - Pieter Hintjens**
 - **Use the case that handles every case.** (summary of google docs) 
 - **Single Object Responsibility**
 
@@ -13,11 +11,10 @@ Centralized location for all RTL-python coding standards.
 
 - "Explicit is better than implicit" - [PEP 20]
 - "Readability counts." - [PEP 20]
-- "Anybody can fix anything." - [Khan Academy Development Docs]
-- Fix each [broken window](http://www.artima.com/intv/fixit2.html) (bad design, wrong decision, or poor code) *as soon as it is discovered*.
+**- Fix each [broken window](http://www.artima.com/intv/fixit2.html) (bad design, wrong decision, or poor code) *as soon as it is discovered*.**
+- Even more important that Test-Driven Development--*Human-Driven Development*
 - "Now is better than never." - [PEP 20]
 - Test ruthlessly. Write docs for new features.
-- Even more important that Test-Driven Development--*Human-Driven Development*
 - These guidelines may--and probably will--change.
 
 
