@@ -11,7 +11,7 @@ Centralized location for all RTL-python coding standards.
 
 - "Explicit is better than implicit" - [PEP 20]
 - "Readability counts." - [PEP 20]
-**- Fix each [broken window](http://www.artima.com/intv/fixit2.html) (bad design, wrong decision, or poor code) *as soon as it is discovered*.**
+- **Fix each [broken window](http://www.artima.com/intv/fixit2.html) (bad design, wrong decision, or poor code) *as soon as it is discovered*.**
 - Even more important that Test-Driven Development--*Human-Driven Development*
 - "Now is better than never." - [PEP 20]
 - Test ruthlessly. Write docs for new features.
